@@ -1,13 +1,14 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Omegle backend server (Express + Socket.io + WebRTC signaling)",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Aryan Bandekar",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
